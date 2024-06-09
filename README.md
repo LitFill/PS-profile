@@ -14,6 +14,8 @@
 
 ## Usage
 
+### Windows 10
+
 copy to `C:\Users\{User.Name}\Documents\PowerShell\`
 
 or simply run this:
@@ -21,3 +23,14 @@ or simply run this:
 ```
 cp Microsoft.PowerShell_profile.ps1 ~\Documents\PowerShell\
 ```
+
+### Windows 11
+
+copy to `C:\Users\{User.Name}\OneDrive\Documents\PowerShell\`
+
+or simply run this:
+
+```
+cp Microsoft.PowerShell_profile.ps1 ~\OneDrive\Documents\PowerShell\
+```
+
