@@ -191,7 +191,6 @@ $AppToUpgradeId = @(
     "Valve.Steam"
     "VideoLAN.VLC"
     "voidtools.Everything"
-    "voidtools.Everything"
 )
 
 function Windet {
