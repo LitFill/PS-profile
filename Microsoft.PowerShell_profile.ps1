@@ -201,6 +201,14 @@ function Windet {
     }
 }
 
+function Winstall {
+    foreach ($app  in $AppToUpgradeId) {
+        Write-Host "Installing $app..."
+        winget.exe install $app --silent --verbose
+        Write-Host ""
+    }
+}
+
 Set-Alias -Name salam -Value Show-UserGreet -Description 'Menyapa'
 Set-Alias -Name jadwalGuru -Value Show-JadwalGuru
 Set-Alias -Name jadwalGuruFull -Value Show-JadwalGuruFull
