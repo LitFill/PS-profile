@@ -3,7 +3,7 @@
 ## Dependencies
 
  1. PowerShell (ofc.)
- 1. Oh My Posh (and a [https://github.com/ryanoasis/nerd-fonts](nerd font))
+ 1. Oh My Posh (and a [nerd font](https://github.com/ryanoasis/nerd-fonts))
  1. PowerToys
 
 ### install dependencies
