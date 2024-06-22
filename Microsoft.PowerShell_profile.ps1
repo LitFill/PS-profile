@@ -184,6 +184,7 @@ $AppToUpgradeId = @(
     "Microsoft.PowerToys"
     "Microsoft.VisualStudioCode"
     "Microsoft.WindowsTerminal"
+    "Microsoft.WSL"
     "Neovim.Neovim"
     "Peppy.Osu!"
     "SoftDeluxe.FreeDownloadManager"
@@ -191,6 +192,8 @@ $AppToUpgradeId = @(
     "Valve.Steam"
     "VideoLAN.VLC"
     "voidtools.Everything"
+    "StephanDilly.gitui"
+    "OpenJS.NodeJS.LTS"
 )
 
 function Windet {
