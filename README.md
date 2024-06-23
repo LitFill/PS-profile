@@ -14,23 +14,16 @@
 
 ## Usage
 
-### Windows 10
+### Backup existing profile
 
-copy to `C:\Users\{User.Name}\Documents\PowerShell\`
+backup by running this:
 
-or simply run this:
+    $profil="$(echo $PROFILE)"
+    mv $profil "$profil-backup"
 
-```
-cp Microsoft.PowerShell_profile.ps1 ~\Documents\PowerShell\
-```
+### 
 
-### Windows 11
+copy to the `$PROFILE` file:
 
-copy to `C:\Users\{User.Name}\OneDrive\Documents\PowerShell\`
-
-or simply run this:
-
-```
-cp Microsoft.PowerShell_profile.ps1 ~\OneDrive\Documents\PowerShell\
-```
+    cp Microsoft.PowerShell_profile.ps1 "$(echo $PROFILE)"
 
