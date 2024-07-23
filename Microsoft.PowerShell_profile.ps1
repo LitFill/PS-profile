@@ -194,6 +194,7 @@ $AppToUpgradeId = @(
     "voidtools.Everything"
     "StephanDilly.gitui"
     "OpenJS.NodeJS.LTS"
+    "wez.wezterm"
 )
 
 function Windet {
